@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+}
+
+#legend-panel {
+    width: 220px;
+    background: white;
+    padding: 16px;
+    border-right: 1px solid #ddd;
+}
+
+#tracker-panel {
+    width: 320px;
+    background: white;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+#canvas-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.task-row {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.task-row input[type="text"] {
+    flex: 2;
+}
+
+.task-row input[type="number"] {
+    width: 70px;
+}
+
+.task-row button {
+    background: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.controls {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+#legend-items {
+    margin-top: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 6px;
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #333;
+    margin-right: 8px;
+}

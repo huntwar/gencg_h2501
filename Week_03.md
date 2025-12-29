@@ -1,47 +1,21 @@
-# Day 01
+# Week 03
 
-## Computing without computer
+## Grids and Patterns
+When I read the "pattern" a thing I did in my childhood came up in my mind. A very easy and relaxing pattern to draw when bored or anxious.
 
-### Sollewit: Wall drawing
+![Pattern Sketch](content/W03/W03_Sketch_Pattern.png)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+With the help of AI i tried to create a good base to modify by myself:
 
-![Example Image](content/day01/test.jpg)
+>Write p5.js code to reproduce following pattern. Make sure the pattern has 7 defined columns and random line size like in the sketch
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+![AI Generated Pattern](content/W03/W03_AI_Generated_Pattern.png)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Looking at this pattern it reminded me of bamboos trees for some reason.
+I then took over and program the pattern by myself with the base I had. My goal was to fill the canva with columns to have an order and randomize the segment length. As the AI randomized the segment width and I liked it, i decided to randomize that too. 
 
-### Webcam tests
+Working with code felt limited compared to the hands-on freedom of analog creation, which makes me really admire artists who master those systems, but on the other side i like the thrill of seeing complex, unexpected results just by trying out new combinations of random and simple lines.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+The final product was programmed by me with a bit of AI. 
 
-{% raw %}
-<iframe src="content/day01/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-{% raw %}
-<iframe src="content/day01/02/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
-
-## Computing with computer
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-{% raw %}
-<iframe src="content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
-
-* Lorem ipsum dolor sit amet
-* Consetetur sadipscing elitr, sed diam nonumy.
-* At vero eos et accusam et justo duo dolores et ea rebum. 
+<iframe src="content/W03/pattern.html" width="100%" height="100%" frameborder="no"></iframe>

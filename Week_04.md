@@ -1,47 +1,14 @@
-# Day 01
+# Week 04
 
-## Computing without computer
+For the clock project, I wanted to move beyond the typical idea of time as just numbers and ticking hands. A traditional clock divides time into rigid, measurable fragments, but I wanted to capture its *essence* — something more fluid, emotional, and alive. My goal was to create a clock that felt deeply creative yet symbolized the *worth* of time itself — not just its passing. Instead of mechanical hands, I used color, form, and motion to express moments unfolding: hues evolving like moods, shapes expanding and fading like breaths. This clock doesn’t *tell* time in the usual sense — it *honors* it, turning each passing second into something meaningful and beautiful.
 
-### Sollewit: Wall drawing
+This approach made me think deeply about what time really is. A real clock is linear — always moving forward, second after second. But our lived experience of time often feels cyclical: days repeating, seasons looping, patterns returning. My design tried to capture that tension. The motion of my clock was cyclical — it reset after each minute — but within each cycle, there was linear transformation. You could sense progression and return at the same time.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Working on this project changed how I think about systems and meaning. Coding a clock wasn’t just about keeping time; it became a reflection on how we perceive rhythm, repetition, and change. Instead of measuring time, I ended up visualizing its personality — fluid, evolving, and endlessly looping back to itself.
 
-![Example Image](content/day01/test.jpg)
+<iframe src="content/W04/ClockityClock.html" width="100%" height="100%" frameborder="no"></iframe>
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-### Webcam tests
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-{% raw %}
-<iframe src="content/day01/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-{% raw %}
-<iframe src="content/day01/02/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
-
-## Computing with computer
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-{% raw %}
-<iframe src="content/day01/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
-
-* Lorem ipsum dolor sit amet
-* Consetetur sadipscing elitr, sed diam nonumy.
-* At vero eos et accusam et justo duo dolores et ea rebum. 
+### Questions
+How does your clock represent time differently from a real one?
+What does cyclical vs linear mean in your design?
