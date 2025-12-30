@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  </head>
+<body class="bg-gray-50 min-h-screen font-sans p-4">
+<script src="CreatureGenerator.js"></script>
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-6 md:p-8 mt-6">
+        <h1 class="text-3xl font-extrabold text-gray-900 mb-2 text-center">
+            Parametric Creature Generator
+        </h1>
+        <p class="text-center text-gray-500 mb-6">
+            Adjust the sliders and dropdowns to design a unique face, then press 'Generate' to see the animation.
+        </p>
+
+        <!-- Canvas Container -->
+        <div id="p5-canvas-container" class="mb-8">
+            <!-- p5.js canvas will be placed here -->
+        </div>
+
+        <!-- Controls Section -->
+        <div id="controls" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Continuous Parameters (Sliders) -->
+            <div class="bg-indigo-50 p-4 rounded-lg">
+                <label for="eyeSpacing" class="block text-sm font-medium text-indigo-700">1. Eye Spacing</label>
+                <input type="range" id="eyeSpacing" min="0.2" max="0.8" step="0.01" value="0.5" class="w-full h-2 bg-indigo-200 rounded-lg appearance-none cursor-pointer mt-1">
+                <span id="eyeSpacingValue" class="text-xs text-indigo-500 float-right">0.5</span>
+            </div>
+
+            <div class="bg-indigo-50 p-4 rounded-lg">
+                <label for="mouthCurve" class="block text-sm font-medium text-indigo-700">2. Mood/Mouth Curve</label>
+                <input type="range" id="mouthCurve" min="-1.0" max="1.0" step="0.05" value="0.0" class="w-full h-2 bg-indigo-200 rounded-lg appearance-none cursor-pointer mt-1">
+                <span id="mouthCurveValue" class="text-xs text-indigo-500 float-right">0.0</span>
+            </div>
+
+            <div class="bg-indigo-50 p-4 rounded-lg">
+                <label for="faceWidthRatio" class="block text-sm font-medium text-indigo-700">3. Head Width Ratio</label>
+                <input type="range" id="faceWidthRatio" min="0.5" max="1.5" step="0.02" value="1.0" class="w-full h-2 bg-indigo-200 rounded-lg appearance-none cursor-pointer mt-1">
+                <span id="faceWidthRatioValue" class="text-xs text-indigo-500 float-right">1.0</span>
+            </div>
+
+            <!-- Discrete Parameters (Dropdowns) -->
+            <div class="bg-purple-50 p-4 rounded-lg">
+                <label for="eyeShape" class="block text-sm font-medium text-purple-700">4. Eye Type</label>
+                <select id="eyeShape" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-purple-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md">
+                    <option value="Round">Round (Classic)</option>
+                    <option value="Slit">Slit (Reptilian)</option>
+                    <option value="Target">Target (Cyborg)</option>
+                </select>
+            </div>
+
+            <div class="bg-purple-50 p-4 rounded-lg">
+                <label for="speciesColor" class="block text-sm font-medium text-purple-700">5. Species/Color</label>
+                <select id="speciesColor" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-purple-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md">
+                    <option value="Human">Human (Peach)</option>
+                    <option value="Alien">Alien (Green)</option>
+                    <option value="Ogre">Ogre (Gray/Lumpy)</option>
+                </select>
+            </div>
+
+            <div class="bg-purple-50 p-4 rounded-lg">
+                <label for="piercingType" class="block text-sm font-medium text-purple-700">6. Piercings</label>
+                <select id="piercingType" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-purple-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md">
+                    <option value="None">None</option>
+                    <option value="Septum">Septum Ring</option>
+                    <option value="Lip">Lip Stud</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Action Button -->
+        <div class="mt-8 text-center">
+            <button id="generateButton" class="px-8 py-3 text-lg font-semibold rounded-full text-white bg-indigo-600 hover:bg-indigo-700 transition duration-150 shadow-lg shadow-indigo-300/50">
+                Generate Face Animation
+            </button>
+        </div>
+    </div>
+</body>
+</html>
