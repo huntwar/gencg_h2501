@@ -1,6 +1,2 @@
 # Week 08
-
-## Computing without computer
-
-### Self Study 
-Work on past themes + Project Idea
+This week I spent time brainstorming ideas for my final project. I reviewed the topics we’ve covered so far — including parametric graphics, animation states, and interaction — and thought deeply about what theme I wanted to explore. I became particularly drawn to the concept of time, not only as a visual and experiential element, but also in terms of how people value their time and how they choose to spend it. I started thinking about whether this could be represented through changing visuals, repetition, or accumulation. At this point, however, I still wasn’t sure how to visually represent time in a generative coding context, or what inputs or metaphors I could use to express these ideas in code.

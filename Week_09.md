@@ -1,8 +1,2 @@
 # Week 09
-
-
-## Computing without computer
-
-### Check POint 2
-
-Sick
+Unfortunately, I was sick this week and wasn’t able to do much work on the project. I mainly focused on resting and recovering, so progress was limited. I’m hoping to pick things up again next week.
