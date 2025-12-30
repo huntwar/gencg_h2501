@@ -1,8 +1,8 @@
 # Week 05
+In this lesson I learned how a “machine” in generative art can be understood as a system that transforms input into output through a set of rules, rather than a physical object. By changing parameters, logic, and behavior, the same input (for example, a drawn line) can produce very different visual results. I learned that machines can have personalities, that they can amplify, distort, interpret, or simplify human input, and that authorship becomes shared between the human and the system.
+
+For my final product I created a generative drawing machine with evolving personalities. The user draws a stroke with the mouse, and the machine reinterprets it depending on the selected mode. Each mode represents a different way the machine “thinks”: it can expand the drawing, add extra details, distort it, simplify it, or smooth it. The machine also includes adjustable parameters like brush size, intensity, chaos, and color, which let the user influence how strong or unpredictable the machine’s behavior is.
+
+This project helped me understand how rule-based systems can feel expressive and creative, even though they are made from simple logic. Instead of directly drawing a final image, I designed a process that generates many possible outcomes. The drawing machine becomes a collaborator that responds to my gestures and decisions, making each result unique.
 
 <iframe src="content/W01-02/Explorer.html" width=100% height=100% frameborder="no"></iframe>
-
-### Questions
-
-How is your machine “expressive” rather than “functional”?
-What limitations or constraints shaped your outcome?
