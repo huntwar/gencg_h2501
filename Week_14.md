@@ -7,14 +7,18 @@ In the project, users enter their weekly tasks and the number of hours they spen
 <iframe src="content/Final_Project/FinalVersion/finalProject.html" width="700" height="700" ></iframe>
 
 *- What did you learn about your creative process this semester?*
+
 Good things take time and patience. Every “fail” isn’t really a failure — something beautiful can grow out of it.
 
 *- How did your algorithmic thinking evolve?* 
+
 I started thinking more in systems — how inputs transform, how rules create behaviors, and how small changes affect the whole output.
 
 *- Which experiment or failure shaped the project most?*
+
 Probably the experiments with patterns and sand-like pixels. They helped me discover the right visual metaphor.
 
 *- How might you extend this system beyond class?*
+
 I’m not fully sure yet — but it definitely feels like a topic worth diving deeper into.
 

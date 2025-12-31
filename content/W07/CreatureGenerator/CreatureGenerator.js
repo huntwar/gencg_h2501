@@ -280,3 +280,6 @@
             };
 
         };
+
+        // Initialize the p5 sketch
+        new p5(sketch);
