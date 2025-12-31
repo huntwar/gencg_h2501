@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sand of Time Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            padding-top: 50px;
+            background-color: #f0f0f0;
+        }
+        #controls {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            min-width: 300px;
+        }
+        .task-input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: flex;
+            gap: 10px;
+        }
+        #tasks-container {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        #calculate-btn {
+            background-color: #4CAF50;
+            color: white;
+            margin-left: 10px;
+        }
+        #add-task-btn {
+            background-color: #2196F3;
+            color: white;
+        }
+        #legend {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+        .color-swatch {
+            width: 15px;
+            height: 15px;
+            margin-right: 8px;
+            border: 1px solid #333;
+        }
+        #p5-container {
+            /* Initially hide the canvas container */
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+
+    <div id="controls">
+        <h2>⏳ Time Tracker</h2>
+        <p>Enter up to 7 tasks and the hours you spend on them weekly.</p>
+        <div id="tasks-container">
+            </div>
+        <button id="add-task-btn">➕ Add Task</button>
+        <button id="calculate-btn">📊 Calculate Time Sand</button>
+
+        <div id="legend">
+            <h4>Task Legend:</h4>
+        </div>
+    </div>
+
+    <div id="p5-container"></div>
+
+    <script src="FinalProject_2.js"></script>
+    <script>
+        // --- JS to handle adding task fields ---
+        let taskCount = 0;
+        const maxTasks = 7;
+        const tasksContainer = document.getElementById('tasks-container');
+
+        // Function modified to accept and set default values
+        function addTaskField(defaultName = '', defaultHours = '') {
+            if (taskCount >= maxTasks) return;
+
+            taskCount++;
+            const taskDiv = document.createElement('div');
+            taskDiv.className = 'task-input';
+            taskDiv.innerHTML = `
+                <input type="text" id="task-name-${taskCount}" placeholder="Task Name (e.g., Work)" value="${defaultName}" required style="flex: 2;">
+                <input type="number" id="task-hours-${taskCount}" min="1" placeholder="Hrs/Week" value="${defaultHours}" required style="flex: 1;">
+            `;
+            tasksContainer.appendChild(taskDiv);
+
+            if (taskCount >= maxTasks) {
+                document.getElementById('add-task-btn').disabled = true;
+            }
+        }
+
+        // Add initial fields with SAMPLE DATA
+        addTaskField("Work", 40); 
+        addTaskField("Sleep", 56); // 8 hours/night
+        addTaskField("Social Media/TV", 20);
+        addTaskField("Commute", 5);
+        addTaskField("Exercise/Hobbies", 10);
+        
+        // Add one empty slot for the user to try
+        addTaskField(); 
+
+        document.getElementById('add-task-btn').addEventListener('click', () => {
+             // If adding a new field manually, make sure it's empty
+             addTaskField(); 
+        });
+        
+        document.getElementById('calculate-btn').addEventListener('click', () => {
+            // 1. Show the canvas container when the button is clicked
+            document.getElementById('p5-container').style.display = 'block';
+
+            // 2. Trigger the visualization setup in sketch.js
+            window.setupVisualization();
+        });
+        
+        // Expose taskCount for sketch.js to use
+        window.getTaskCount = () => taskCount;
+
+    </script>
+</body>
+</html>
