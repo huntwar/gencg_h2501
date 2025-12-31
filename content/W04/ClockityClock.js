@@ -47,7 +47,10 @@ function draw() {
   arc(0, 0, 300, 300, -90, endAngle - 90);
   pop();
   
- 
+  // ------------------------------------------------------------------
+  // ---- CENTER (NUMBER OF CIRCLES BY HOUR) ----
+  // ------------------------------------------------------------------
+  
   let totalCircles = hr ;
   let maxRadius = totalCircles * 10;
   let hourColor = color(100, 200, 255); 

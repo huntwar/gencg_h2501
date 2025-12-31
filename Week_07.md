@@ -12,12 +12,12 @@ My first try is an interactive and animated face generator. The face is controll
 
 The second try is a simpler but very flexible parametric face sketch. I used sliders to control the width and height of the head, eye size, mouth curve (from frown to smile), and eyebrow tilt. I also added discrete controls for the number of eyes (1–3) and an optional piercing. This one helped me understand how even small parameter changes can totally change the expression and personality of a character.
 
-<iframe src="content/W07/Facials/Facials.html" width="500" height="500" ></iframe>
+<iframe src="content/W07/Facials/Facials.html" width="500" height="700" ></iframe>
 
 ### Alternate Version of the Animated Generator
 
 The third try is a variation of the first animated face generator. It works with the same idea of animation states, easing, and UI-controlled parameters. The sphere transforms into a colored face that slowly appears with the features scaling in. This version helped reinforce my understanding of organizing code, working with global state, and updating parameters live from the UI.
 
-<iframe src="content/W07/CreatureGenerator/CreatureGenerator.html" width="500" height="400"></iframe>
+<iframe src="content/W07/CreatureGenerator/CreatureGenerator.html" width="700" height="400"></iframe>
 
 Overall, this lesson showed me how procedural design + interaction = endless variation. Instead of drawing one face, I created systems that can generate hundreds of them — each one unique.
