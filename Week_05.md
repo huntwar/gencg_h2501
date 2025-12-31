@@ -5,4 +5,4 @@ For my final product I created a generative drawing machine with evolving person
 
 This project helped me understand how rule-based systems can feel expressive and creative, even though they are made from simple logic. Instead of directly drawing a final image, I designed a process that generates many possible outcomes. The drawing machine becomes a collaborator that responds to my gestures and decisions, making each result unique.
 
-<iframe src="content/W01-02/Explorer.html" width=100% height=100% frameborder="no"></iframe>
+<iframe src="content/W05/Explorer.html" width="100%" height="450" ></iframe>

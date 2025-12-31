@@ -8,4 +8,4 @@ This project also made me think about how we experience time. A real clock moves
 
 Working on this helped me see that coding isn’t just technical — it can be expressive. I wasn’t just building a system to track time, I was creating a way to visualize how time feels to me: flowing, changing, and always coming back around.
 
-<iframe src="content/W04/ClockityClock.html" width="100%" height="100%" frameborder="no"></iframe>
+<iframe src="content/W04/ClockityClock.html" width="100%" height="450"></iframe>
