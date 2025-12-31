@@ -18,6 +18,6 @@ The second try is a simpler but very flexible parametric face sketch. I used sli
 
 The third try is a variation of the first animated face generator. It works with the same idea of animation states, easing, and UI-controlled parameters. The sphere transforms into a colored face that slowly appears with the features scaling in. This version helped reinforce my understanding of organizing code, working with global state, and updating parameters live from the UI.
 
-<iframe src="content/W07/CreatureGenerator/CreatureGenerator.html" width="100%" height="450"></iframe>
+<iframe src="content/W07/CreatureGenerator/CreatureGenerator.html" width="100%" height="100%"></iframe>
 
 Overall, this lesson showed me how procedural design + interaction = endless variation. Instead of drawing one face, I created systems that can generate hundreds of them — each one unique.

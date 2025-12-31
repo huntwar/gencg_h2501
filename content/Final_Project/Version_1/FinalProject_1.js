@@ -1,8 +1,4 @@
 /**
- 
- * Concept: Time is a falling resource. 
- * - HOLD MOUSE: "Focus" to control the block and build stability.
- * - IDLE: Blocks fall randomly and create "Time Gaps."
  */
 
 let blocks = [];

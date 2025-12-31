@@ -4,7 +4,7 @@ My final project is called Value of Time — but it is also about how people spe
 
 In the project, users enter their weekly tasks and the number of hours they spend on them. The words are then broken down into pixels — like sand — and in the background the system multiplies weekly hours of that task × 52 to show the yearly total. This lets us visually see where most of our time goes — and maybe question whether that matches what we value.The max amount of tasks you can add are 7,like the weekly days and the max amount of hours you can insert are 168, like the weekly amount of hours.
 
-<iframe src="content/Final_Project/FinalVersion/finalProject.html" width="100%" height="450" ></iframe>
+<iframe src="content/Final_Project/FinalVersion/finalProject.html" width="100%" height="400" ></iframe>
 
 What did you learn about your creative process this semester?
 Good things take time and patience. Every “fail” isn’t really a failure — something beautiful can grow out of it.

@@ -8,4 +8,4 @@ The connection between the visual sand effect and the idea of time value wasn’
 I want to make the concept readable without me being there to explain it — clearer wording, clearer intent, and maybe clearer UI.
 I want to refine how the interaction and visuals relate directly to the idea of time, not just as an effect but as part of the meaning.
 
-<iframe src="content/Final_Project/Version_3/FinalProject_3.html" width="100%" height="450" ></iframe>
+<iframe src="content/Final_Project/Version_3/FinalProject_3.html" width="500" height="500" ></iframe>

@@ -17,4 +17,4 @@ Working with code felt limited compared to the hands-on freedom of analog creati
 
 The final product was programmed by me with a bit of AI. 
 
-<iframe src="content/W03/pattern.html" width="100%" height="450" ></iframe>
+<iframe src="content\W03\pattern.html" width="100%" height="450" ></iframe>
