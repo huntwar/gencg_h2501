@@ -1,6 +1,5 @@
 # Week 03
 
-## Grids and Patterns
 When I read the "pattern" a thing I did in my childhood came up in my mind. A very easy and relaxing pattern to draw when bored or anxious.
 
 ![Pattern Sketch](content/W03/W03_Sketch_Pattern.png)
